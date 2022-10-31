@@ -6,13 +6,13 @@ VALUES
 ("The Nightmare Before Christmas"),
 ("Ghostbusters");
 
-INSERT INTO reviews (review)
+INSERT INTO reviews (movie_id, review)
 VALUES
-(" Not good"),
-("Very witchy"),
-("Beedoo beedoo papoy banana"),
-("This is Halloween"),
-("Who you gonna call?");
+(1, " Not good"),
+(2, "Very witchy"),
+(3, "Beedoo beedoo papoy banana"),
+(4, "This is Halloween"),
+(5, "Who you gonna call?");
 
 
        
